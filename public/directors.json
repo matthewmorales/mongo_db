@@ -1,0 +1,28 @@
+{
+		"first_name" : "Sir Seymour",
+		"last_name" : "Hicks",
+		"birth_year": 1871,
+		"first_active": 1922,
+		"last_active": 1948
+}
+{
+		"first_name" : "Sir Alfred",
+		"last_name" : "Hitchcock",
+		"birth_year": 1899,
+		"first_active": 1925,
+		"last_active": 1976
+}
+{
+		"first_name" : "Graham",
+		"last_name" : "Cutts",
+		"birth_year": 1885,
+		"first_active": 1920,
+		"last_active": 1926
+}
+{
+		"first_name" : "W.S. II",
+		"last_name" : "VanDyke",
+		"birth_year": 1889,
+		"first_active": 1918,
+		"last_active": 1942
+}

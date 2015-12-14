@@ -1,0 +1,61 @@
+{
+		"first_name" : "Betty",
+		"last_name" : "Compson",
+		"birth_year": 1896,
+		"death_year": 1974,
+		"country" : "US",
+		"first_active": 1919,
+		"last_active": 1948
+}
+{
+		"first_name" : "Clive",
+		"last_name" : "Brook",
+		"birth_year": 1887,
+		"death_year": 1974,
+		"country" : "UK",
+		"first_active": 1919,
+		"last_active": 1963
+}
+{
+		"first_name" : "Ellaine",
+		"last_name" : "Terris",
+		"first_active": 1923
+}
+{
+		"first_name" : "Josephine",
+		"last_name" : "Earl",
+		"first_active": 1923
+}
+{
+		"first_name" : "M.",
+		"last_name" : "Peter"
+}
+{
+		"first_name" : "Marie",
+		"last_name" : "Ault",
+		"birth_year": 1870,
+		"death_year": 1951,
+		"country" : "UK",
+		"first_active": 1924,
+		"last_active": 1949
+}
+{
+		"first_name" : "Mort",
+		"last_name" : "Mills",
+		"birth_year": 1919,
+		"country" : "US",
+		"first_active": 1960
+}
+{
+		"first_name" : "Seymour",
+		"last_name" : "Hicks",
+		"birth_year": 1871,
+		"country" : "UK"
+}
+{
+		"first_name" : "Victor",
+		"last_name" : "McLaglen",
+		"birth_year": 1883,
+		"country" : "UK"
+}
+

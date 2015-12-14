@@ -1,0 +1,42 @@
+<body>
+	<% @results.each do |document| %>
+		<% temp_json = JSON.parse(document.to_json) %>
+		<h1><%=temp_json["movie"]%></h1>
+		<% movie_title = temp_json["movie"] %>
+		<% temp_json.delete("movie") %>
+		<% temp_json.each do |key, value| %>
+			<%if key == "_id" %>
+			<% elsif key == "director" %>
+				<h2>Directed By: <%= value["first_name"]%>, <%=value["last_name"] %></h2>
+				<% value.delete("first_name")%>
+				<% value.delete("last_name")%>
+				<% value.each do |dkey, dvalue| %>
+					<strong><%=dkey%> :</strong> <strong> <%=dvalue%></strong><br>
+				<% end %>
+			<% elsif key == "prod_studio" %>
+				<h2>Produced By: <%= value["name"] %></h2>
+				<% value.delete("name") %>
+				<% value.each do |pkey, pvalue| %>
+					<strong><%=pkey%> :</strong> <strong> <%=pvalue%></strong><br>
+				<% end %>
+			<% elsif key == "cast" %>
+				<h2>Cast(<%= value.size() %>)</h2>
+				<% value.each do |member| %>
+					<% member.each do |mkey, mvalue| %>
+						<strong><%=mkey%> :</strong> <strong> <%=mvalue%></strong><br>
+					<% end %>
+					<hr>
+				<% end %>
+			<% elsif key == "quote" %>
+				<h2>Quotes: </h2>
+				<% value.each do |qkey, qvalue| %>
+					<strong><%=qkey%> :</strong> <strong> <%=qvalue%></strong><br>
+				<% end %>
+			<%else %>
+				<strong><%=key%> :</strong> <strong> <%=value%></strong><br>
+			<% end %>
+		<% end %>
+		<%= link_to "DELETE", {:controller => "movies", :action => "destroy", :movie => URI.encode(movie_title)} %>
+		<hr>
+	<% end %>
+</body>

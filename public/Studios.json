@@ -1,0 +1,30 @@
+{
+	"name" : "BSF",
+	"full_name" : "Balcon-Saville-Freedman",
+	"city" : "Islington",
+	"country" : "UK"
+}
+{
+	"name" : "DEFA",
+	"full_name" : "DR Germany",
+	"city" : "Berlin",
+	"country" : "DR Germany"
+}
+{
+	"name" : "Famous",
+	"full_name" : "Famous Players",
+	"city" : "New York",
+	"country" : "US"
+}
+{
+	"name" : "MGM",
+	"full_name" : "Metro-Goldwyn-Mayer",
+	"city" : "Hollywood",
+	"country" : "US"
+}
+{
+	"name" : "Universal",
+	"full_name" : "Universal Studios",
+	"city" : "North Hollywood",
+	"country" : "US"
+}
